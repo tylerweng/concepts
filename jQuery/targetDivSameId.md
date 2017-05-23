@@ -10,7 +10,7 @@
 ```javascript
 $(document).ready(function() {
   $("button").click(function() {
-    $("#a1:eq(1)").css("background-color", "red");
+    $("[id=a1]:eq(1)").css("background-color", "red");
   });
 });
 ```
