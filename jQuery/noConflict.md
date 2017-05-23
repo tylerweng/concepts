@@ -4,7 +4,7 @@
 are using other JS libraries that use the $ variable, you may run into
 conflicts.
 
-```
+```javascript
 <script type="text/javascript" src="prototype.js"></>script>
 <script type="text/javascript" src="jquery.js"></>script>
 const $j = jQuerynoConflict();
