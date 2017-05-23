@@ -7,7 +7,7 @@ conflicts.
 ```javascript
 <script type="text/javascript" src="prototype.js"></>script>
 <script type="text/javascript" src="jquery.js"></>script>
-const $j = jQuerynoConflict();
+const $j = jQuery.noConflict();
 // $j is now an alias to the jQuery function
 // $ now has the prototype meaning
 ```
